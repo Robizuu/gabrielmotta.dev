@@ -20,7 +20,7 @@ const ToggleTheme = () => {
         onClick={toggle}
       />
       <SunIcon
-        className="h-8 text-black hidden dark:block cursor-pointer"
+        className="h-8 text-branco-100 hidden dark:block cursor-pointer"
         onClick={toggle}
       />
     </div>
