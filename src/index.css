@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-azul-100: #e9f5ff;
+  --color-azul-200: #93bfef;
+  --color-azul-300: #468be6;
+  --color-azul-400: #092f64;
+
+  --color-cinza-100: #082032;
+  --color-cinza-200: #2c394b;
+  --color-cinza-300: #334756;
+
+  --color-laranja-100: #ff4c29;
+
+  --color-roxo-100: #f4eeff;
+  --color-roxo-200: #dcd6f7;
+  --color-roxo-300: #a6b1e1;
+  --color-roxo-400: #424874;
+
+  --color-branco-100: #f9f7f7;
+
+  --animate-rainbow-light: rainbow-light 4s ease infinite;
+  --animate-rainbow-dark: rainbow-dark 4s ease infinite;
+  --animate-fadeUp: fadeUp 0.8s ease-out forwards;
+
+  @keyframes rainbow-light {
+    0% {
+      color: var(--color-azul-400);
+    }
+    50% {
+      color: var(--color-azul-300);
+    }
+    100% {
+      color: var(--color-azul-400);
+    }
+  }
+
+  @keyframes rainbow-dark {
+    0% {
+      color: var(--color-branco-100);
+    }
+    50% {
+      color: var(--color-laranja-100);
+    }
+    100% {
+      color: var(--color-branco-100);
+    }
+  }
+
+  @keyframes fadeUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+.tags-skills {
+  @apply px-3 py-1 lg:py-2 rounded-xl font-semibold lg:text-[1.1rem] flex items-center gap-2 bg-roxo-100 dark:bg-cinza-100 transition-transform duration-300 ease-in-out hover:scale-110;
+}
+
+.title-skills {
+  @apply text-[1.5rem] font-medium dark:text-laranja-100;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease;
+  visibility: hidden;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Outfit", sans-serif;
+}
