@@ -1,5 +1,5 @@
 import Footer from "./components/footer/Footer";
-import Header from "./components/Header/Header";
+import Header from "./components/header/Header";
 import Timer from "./components/ui/timer/Timer";
 import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
