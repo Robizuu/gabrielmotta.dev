@@ -2,7 +2,10 @@ import { FaGithub, FaLink } from "react-icons/fa";
 
 const Project = () => {
   return (
-    <section id="projetos" className="text-center bg-linear-to-t to-azul-100 from-azul-200 dark:to-cinza-200 dark:from-cinza-100 md:pt-10">
+    <section
+      id="projetos"
+      className="text-center bg-linear-to-t to-azul-100 from-azul-200 dark:to-cinza-200 dark:from-cinza-100 md:pt-10"
+    >
       <h2 className="text-[2rem] lg:text-[3.5rem] font-semibold text-azul-400 dark:text-laranja-100 reveal">
         Projetos em Destaque
       </h2>
@@ -18,7 +21,9 @@ const Project = () => {
             />
           </div>
           <div className="m-5">
-            <h3 className="text-azul-100 dark:text-laranja-100 text-[1.1rem] font-semibold mt-10">SP Mobilidade+</h3>
+            <h3 className="text-azul-100 dark:text-laranja-100 text-[1.1rem] font-semibold mt-10">
+              SP Mobilidade+
+            </h3>
             <p className="text-gray-300 dark:text-gray-300">
               Protótipo desenvolvido num projeto integrador da faculdade que
               visa trazer inovação na mobilidade em SP.
@@ -53,7 +58,9 @@ const Project = () => {
             />
           </div>
           <div className="m-5">
-            <h3 className="text-azul-100 dark:text-laranja-100 text-[1.1rem] font-semibold mt-10">TEA Website</h3>
+            <h3 className="text-azul-100 dark:text-laranja-100 text-[1.1rem] font-semibold mt-10">
+              TEA Website
+            </h3>
             <p className="text-gray-300 dark:text-gray-300">
               Projeto desenvolvido para o projeto integrador da faculdade que
               visa aplicar práticas de design de UI/UX.
@@ -68,7 +75,6 @@ const Project = () => {
               <li className="tags-skills text-azul-400  dark:text-gray-300">
                 JavaScript
               </li>
-              
             </ul>
             <div className="flex flex-wrap justify-around">
               <a
@@ -94,7 +100,9 @@ const Project = () => {
             />
           </div>
           <div className="m-5">
-            <h3 className="text-azul-100 dark:text-laranja-100 text-[1.1rem] font-semibold mt-10">Java ScreenMatch</h3>
+            <h3 className="text-azul-100 dark:text-laranja-100 text-[1.1rem] font-semibold mt-10">
+              Java ScreenMatch
+            </h3>
             <p className="text-gray-300 dark:text-gray-300">
               Projeto desenvolvido com a formação Java da Alura para uma
               aplicação de cinema que integra APIs.

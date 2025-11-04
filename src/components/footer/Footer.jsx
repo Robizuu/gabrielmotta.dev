@@ -6,7 +6,9 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between items-center my-5 lg:my-10">
         <div>
           <h2 className="text-[1.5rem]">Gabriel Motta Martins</h2>
-          <p className="text-gray-600 dark:text-gray-300">Desenvolvedor de Software</p>
+          <p className="text-gray-600 dark:text-gray-300">
+            Desenvolvedor de Software
+          </p>
         </div>
         <div className="flex gap-3 mt-3">
           <a

@@ -30,7 +30,7 @@ export default function Timer() {
   };
 
   return (
-    <div className="fixed top-20 right-6 flex flex-col items-center justify-center gap-4 bg-azul-400 dark:bg-cinza-100 text-branco-100 p-6 rounded-2xl shadow-lg w-70">
+    <div className="fixed top-20 right-6 hidden lg:flex flex-col items-center justify-center gap-4 bg-azul-400 dark:bg-cinza-100 text-branco-100 p-6 rounded-2xl shadow-lg w-70">
       <h2 className="text-xl font-semibold">Cronômetro</h2>
       <p className="text-4xl font-mono">{formatTime(timeLeft)}</p>
       <div className="flex gap-2">

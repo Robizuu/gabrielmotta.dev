@@ -27,17 +27,22 @@ const About = () => {
             </h3>
           </div>
           <p className="text-center lg:text-start text-wrap my-3 mx-8 dark:text-gray-300">
-            Gosto de jogos eletrônicos como Cuphead, Elden Ring, Dark Souls e League of Legends. Tenho uma queda por RPGs e histórias de ficção científica, adoro explorar mundos diferentes e cheios de possibilidades.
+            Gosto de jogos eletrônicos como Cuphead, Elden Ring, Dark Souls e
+            League of Legends. Tenho uma queda por RPGs e histórias de ficção
+            científica, adoro explorar mundos diferentes e cheios de
+            possibilidades.
           </p>
           <p className="text-center lg:text-start text-wrap mb-3 mx-8 dark:text-gray-300">
-            Costumo ouvir artistas como Daft Punk, Pink Floyd, Tame Impala e Tyler, The Creator.
+            Costumo ouvir artistas como Daft Punk, Pink Floyd, Tame Impala e
+            Tyler, The Creator.
           </p>
           <div className="hidden lg:flex flex-col px-8">
             <h3 className="text-[1.4rem] font-semibold mt-10">
               Além do Código
             </h3>
             <p className="my-3 dark:text-gray-300">
-              Além de estudar e programar, gosto de aproveitar meu tempo com alguns hobbies.
+              Além de estudar e programar, gosto de aproveitar meu tempo com
+              alguns hobbies.
             </p>
             <div className="w-full flex-row justify-start gap-2 pr-5 flex-wrap hidden lg:flex mt-3">
               <span className="tags-skills uppercase text-azul-400 dark:text-laranja-100">
