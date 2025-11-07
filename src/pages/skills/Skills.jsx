@@ -15,11 +15,11 @@ import {
 const Skills = () => {
   return (
     <section
-      id="habilidades"
+      id="competencia"
       className="pb-10 flex flex-col bg-linear-to-b to-azul-100 from-azul-200 items-center dark:bg-linear-to-t dark:to-cinza-100 dark:from-cinza-200 md:pt-10"
     >
       <h2 className="text-[2rem] font-semibold dark:text-laranja-100 lg:text-[3.5rem] text-azul-400 reveal">
-        Habilidades
+        Competências
       </h2>
       <div className="flex flex-col mt-10 px-10 gap-5 lg:gap-15 md:grid md:grid-cols-2 md:px-30 lg:px-[20%]">
         <div className="bg-azul-300 text-branco-100 p-5 lg:p-10 rounded-lg shadow-lg dark:bg-cinza-300 dark:text-branco-100 ring-1 ring-azul-300 hover:ring-branco-100 dark:ring-cinza-100 hover:dark:ring-laranja-100 transition-all duration-300 reveal">
@@ -100,6 +100,29 @@ const Skills = () => {
           </ul>
         </div>
       </div>
+      <div className="bg-azul-300 text-branco-100 p-5 lg:p-10 rounded-lg shadow-lg dark:bg-cinza-300 dark:text-branco-100 ring-1 ring-azul-300 hover:ring-branco-100 dark:ring-cinza-100 hover:dark:ring-laranja-100 transition-all duration-300 mx-10 mt-5 lg:mt-15 md:w-100 lg:w-150 reveal">
+          <h3 className="title-skills">Soft Skills</h3>
+          <ul className="w-full flex flex-row justify-start gap-2 flex-wrap mt-3 lg:mt-5 lg:mb-5">
+            <li className="tags-skills text-azul-300 dark:text-gray-300">
+              Comunicação
+            </li>
+            <li className="tags-skills text-azul-300 dark:text-gray-300">
+              Trabalho em equipe
+            </li>
+            <li className="tags-skills text-azul-300 dark:text-gray-300">
+              Resiliência
+            </li>
+            <li className="tags-skills text-azul-300 dark:text-gray-300">
+              Proatividade
+            </li>
+            <li className="tags-skills text-azul-300 dark:text-gray-300">
+              Adaptabilidade
+            </li>
+            <li className="tags-skills text-azul-300 dark:text-gray-300">
+              Aprendizado contínuo
+            </li>
+          </ul>
+        </div>
     </section>
   );
 };
