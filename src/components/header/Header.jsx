@@ -6,7 +6,7 @@ const Header = () => {
       <h1 className="text-[1.5rem] font-bold cursor-pointer">Robizu.dev</h1>
       <nav className="gap-2 font-medium hidden sm:flex cursor-pointer">
         <a href="#sobre">Sobre</a>
-        <a href="#habilidades">Habilidades</a>
+        <a href="#competencia">Competência</a>
         <a href="#projetos">Projetos</a>
         <a href="#experiencia">Experiência</a>
         <a href="#contato">Contato</a>
