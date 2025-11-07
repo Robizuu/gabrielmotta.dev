@@ -12,7 +12,7 @@ const Journey = () => {
         experiência trabalhando na área de tecnologia.
       </p>
       <div className="grid lg:grid-cols-2 gap-5 lg:gap-10 md:px-30 lg:px-[20%]">
-        <div className="bg-azul-300 dark:bg-cinza-300 rounded-xl flex flex-col justify-center gap-1 p-5 mx-10 md:mx-0 lg:mx-0 shadow-xl ring-1 dark:ring-cinza-100 hover:dark:ring-laranja-100 transition-all duration-300 reveal">
+        <div className="bg-azul-300 dark:bg-cinza-300 rounded-xl ring-azul-300 flex flex-col justify-center gap-1 p-5 mx-10 md:mx-0 lg:mx-0 shadow-xl ring-1 hover:ring-branco-100 dark:ring-cinza-100 hover:dark:ring-laranja-100 transition-all duration-300 reveal">
           <div className="flex flex-col justify-center items-center">
             <h4 className="text-[1.5rem] text-branco-100 dark:text-laranja-100 font-semibold">
               Metinjo
@@ -35,7 +35,7 @@ const Journey = () => {
             <li>Solicitações de depósitos com SAP.</li>
           </ul>
         </div>
-        <div className="bg-azul-300 dark:bg-cinza-300 rounded-xl flex flex-col justify-center gap-1 p-5 mx-10 md:mx-0 lg:mx-0 shadow-xl ring-1 dark:ring-cinza-100 hover:dark:ring-laranja-100 transition-all duration-300 reveal">
+        <div className="bg-azul-300 dark:bg-cinza-300 rounded-xl flex flex-col justify-center gap-1 p-5 mx-10 md:mx-0 lg:mx-0 shadow-xl ring-1 ring-azul-300 hover:ring-branco-100 dark:ring-cinza-100 hover:dark:ring-laranja-100 transition-all duration-300 reveal">
           <div className="flex flex-col justify-center items-center">
             <h4 className="text-[1.5rem] text-branco-100 dark:text-laranja-100 font-semibold">
               D'UP

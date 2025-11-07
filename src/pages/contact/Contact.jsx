@@ -18,7 +18,7 @@ const Contact = () => {
         Informações para me contatar.
       </p>
       <div className="text-azul-100 flex flex-col gap-3 py-5">
-        <div className="bg-azul-300 dark:bg-cinza-300 flex flex-row items-center p-3 rounded-xl gap-3 ring-1 dark:ring-cinza-100 hover:dark:ring-laranja-100 transition-all duration-300 reveal">
+        <div className="bg-azul-300 dark:bg-cinza-300 flex flex-row items-center p-3 rounded-xl gap-3 ring-1 ring-azul-300 hover:ring-branco-100 dark:ring-cinza-100 hover:dark:ring-laranja-100 transition-all duration-300 reveal">
           <div className="bg-azul-400 dark:bg-cinza-200 text-azul-200 dark:text-laranja-100 p-2 lg:p-5 rounded-sm">
             <FaEnvelope className="lg:h-10 lg:w-10" />
           </div>
@@ -27,7 +27,7 @@ const Contact = () => {
             <p>gmotta344@gmail.com</p>
           </div>
         </div>
-        <div className="bg-azul-300 dark:bg-cinza-300 flex flex-row items-center p-3 rounded-xl gap-3 ring-1 dark:ring-cinza-100 hover:dark:ring-laranja-100 transition-all duration-300 reveal">
+        <div className="bg-azul-300 dark:bg-cinza-300 flex flex-row items-center p-3 rounded-xl gap-3 ring-1 ring-azul-300 hover:ring-branco-100 dark:ring-cinza-100 hover:dark:ring-laranja-100 transition-all duration-300 reveal">
           <div className="bg-azul-400 dark:bg-cinza-200 text-azul-200 dark:text-laranja-100 p-2 lg:p-5 rounded-sm ">
             <FaPhone className="lg:h-10 lg:w-10" />
           </div>
@@ -36,7 +36,7 @@ const Contact = () => {
             <p>+55 12 98816-0781</p>
           </div>
         </div>
-        <div className="bg-azul-300 dark:bg-cinza-300 flex flex-row items-center p-3 rounded-xl gap-3 ring-1 dark:ring-cinza-100 hover:dark:ring-laranja-100 transition-all duration-300 reveal">
+        <div className="bg-azul-300 dark:bg-cinza-300 flex flex-row items-center p-3 rounded-xl gap-3 ring-1 ring-azul-300 hover:ring-branco-100 dark:ring-cinza-100 hover:dark:ring-laranja-100 transition-all duration-300 reveal">
           <div className="bg-azul-400 dark:bg-cinza-200 text-azul-200 dark:text-laranja-100 p-2 lg:p-5 rounded-sm">
             <FaLocationArrow className="lg:h-10 lg:w-10" />
           </div>

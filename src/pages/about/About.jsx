@@ -13,7 +13,7 @@ const About = () => {
         Sobre mim
       </h2>
       <p className="text-center text-wrap mx-5 mt-3 lg:text-[1.2rem] dark:text-gray-300 text-azul-400 reveal">
-        Sou estudante de Engenharia de Software pela UNISA (Universidade de
+        Estudante de Engenharia de Software pela UNISA (Universidade de
         Santo Amaro), com foco em desenvolvimento web. Tenho me dedicado a
         aprimorar minhas habilidades em front-end e back-end, unindo
         criatividade e lógica para construir soluções eficientes.
@@ -75,7 +75,7 @@ const About = () => {
             </h3>
           </div>
           <p className="text-center lg:text-start text-wrap my-3 px-10 lg:px-8 dark:text-gray-300">
-            Sou uma pessoa apaixonada por música, parte fundamental da minha
+            Apaixonado por música, parte fundamental da minha
             rotina de desenvolvimento. Então deixo disponível a playlist com
             minhas favoritas:
           </p>
