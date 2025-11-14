@@ -14,7 +14,7 @@ const Home = () => {
           Gabriel
         </span>
       </h1>
-      <p className="text-gray-500 dark:text-gray-300 mb-3 sm:mb-5 transition reveal">
+      <p className="text-gray-600 dark:text-gray-300 mb-3 sm:mb-5 transition reveal">
         Desenvolvedor Full Stack apaixonado por tecnologia
       </p>
       <div className="flex gap-4 font-medium reveal">
