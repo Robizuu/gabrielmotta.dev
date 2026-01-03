@@ -43,7 +43,7 @@ const Project = () => {
               </li>
             </ul>
             <a
-              className="flex justify-center py-2 md:mx-50 lg:mx-15 mx-15 rounded-xl text-branco-100 dark:text-laranja-100 bg-azul-400 dark:bg-cinza-100 hover:opacity-80 transition duration-200 items-center gap-2 font-medium"
+              className="flex justify-center py-2 rounded-xl text-branco-100 dark:text-laranja-100 bg-azul-400 dark:bg-cinza-100 hover:opacity-80 transition duration-200 items-center gap-2 font-medium"
               href="https://github.com/Robizuu/prototipo-sp-mobilidade-app"
             >
               Código <FaGithub />
@@ -72,19 +72,22 @@ const Project = () => {
               <li className="tags-skills text-azul-400 dark:text-gray-300">
                 CSS3
               </li>
+              <li className="tags-skills text-azul-400 dark:text-gray-300">
+                Git
+              </li>
               <li className="tags-skills text-azul-400  dark:text-gray-300">
                 JavaScript
               </li>
             </ul>
-            <div className="flex flex-wrap justify-around">
+            <div className="flex flex-wrap gap- justify-around">
               <a
-                className="flex justify-center py-2 lg:px-10 md:px-20 px-5 rounded-xl text-branco-100 dark:text-laranja-100 bg-azul-400 dark:bg-cinza-100 hover:opacity-80 transition duration-200 items-center gap-2 font-medium"
+                className="flex w-[45%] py-2 justify-center rounded-xl text-branco-100 dark:text-laranja-100 bg-azul-400 dark:bg-cinza-100 hover:opacity-80 transition duration-200 items-center gap-2 font-medium"
                 href="https://github.com/Robizuu/prototipo-sp-mobilidade-app"
               >
                 Código <FaGithub />
               </a>
               <a
-                className="flex justify-center md:px-20 lg:px-10 px-5 rounded-xl text-black dark:text-gray-300 bg-azul-100 dark:bg-cinza-200 hover:opacity-80 transition duration-200 items-center gap-2 font-medium"
+                className="flex w-[45%] py-2 justify-center rounded-xl text-black dark:text-gray-300 bg-azul-100 dark:bg-cinza-200 hover:opacity-80 transition duration-200 items-center gap-2 font-medium"
                 href="https://tea-projeto.vercel.app/"
               >
                 Demo <FaLink />
@@ -122,7 +125,7 @@ const Project = () => {
               </li>
             </ul>
             <a
-              className="flex justify-center py-2 md:mx-50 lg:mx-15 mx-15 rounded-xl text-branco-100 dark:text-laranja-100 bg-azul-400 dark:bg-cinza-100 hover:opacity-80 transition duration-200 items-center gap-2 font-medium"
+              className="flex justify-center py-2 rounded-xl text-branco-100 dark:text-laranja-100 bg-azul-400 dark:bg-cinza-100 hover:opacity-80 transition duration-200 items-center gap-2 font-medium"
               href="https://github.com/Robizuu/prototipo-sp-mobilidade-app"
             >
               Código <FaGithub />
