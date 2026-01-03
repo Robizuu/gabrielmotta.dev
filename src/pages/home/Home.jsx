@@ -20,13 +20,13 @@ const Home = () => {
       <div className="flex gap-4 font-medium reveal">
         <a
           href="#projetos"
-          className="px-4 py-2 dark:bg-cinza-200 bg-azul-300 text-branco-100 rounded-md sm:shadow-lg transition duration-300 hover:dark:bg-cinza-300 hover:dark:text-branco-100 hover:bg-azul-400"
+          className="px-4 py-2 dark:bg-cinza-300 bg-azul-300 text-branco-100 rounded-md sm:shadow-lg transition duration-300 hover:dark:bg-cinza-200 hover:dark:text-branco-100 hover:bg-azul-400"
         >
           Ver Projetos
         </a>
         <a
           href="#contato"
-          className="px-3 py-2 bg-azul-100 dark:bg-white text-black rounded-md sm:shadow-lg transition duration-300 dark:hover:bg-gray-300 hover:bg-azul-200"
+          className="px-3 py-2 bg-azul-100 dark:bg-white text-black rounded-md sm:shadow-lg transition duration-300 dark:hover:bg-gray-400 hover:bg-azul-200"
         >
           Entre em Contato
         </a>
@@ -56,7 +56,7 @@ const Home = () => {
           <FaEnvelope className=" fill-current w-8 h-8 transition duration-300 cursor-pointer hover:dark:text-gray-400 hover:text-azul-400" />
         </a>
       </div>
-      <ChevronDownIcon className="animate-bounce h-10 sm:mt-70 mt-30" />
+      <ChevronDownIcon className="animate-bounce h-10 mt-30 3xl:mt-70" />
     </section>
   );
 };
